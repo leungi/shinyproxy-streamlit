@@ -1,3 +1,7 @@
+# Credits
+- [Shinyproxy](https://github.com/openanalytics/shinyproxy)
+- [Streamlit](https://github.com/streamlit/streamlit)
+
 # Running `streamlit` image inside ShinyProxy 
 
 [Streamlit](https://www.streamlit.io/) is a Shiny-like app development library for Python.
