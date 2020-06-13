@@ -1,6 +1,6 @@
 # Running `streamlit` image inside ShinyProxy 
 
-[Streasmlit](https://www.streamlit.io/) is a Shiny-like app development library for Python.
+[Streamlit](https://www.streamlit.io/) is a Shiny-like app development library for Python.
 
 [ShinyProxy](https://www.shinyproxy.io/) is a deployment platform built for Shiny, and extendable to other apps.
 
@@ -27,6 +27,6 @@ specs:
     description: Adding another non shiny app to shinyproxy
     container-cmd: ["streamlit", "run", "app.py", "--server.port=8501"]
     container-image: shinyproxy-streamlit
-	# Streamlit runs on port 8501
+    # Streamlit runs on port 8501
     port: 8501
 ```
